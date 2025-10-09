@@ -1,4 +1,4 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Weather Project
 
 > Compare the precipitation levels between Seattle and Charlotte from January 1, 2018 to December 31, 2022.
 

@@ -1,4 +1,4 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Education Project (This is a template README.md file that you can adapt to your project)
 
 > A brief description of what the project does and its purpose.
 
@@ -9,7 +9,7 @@
 Examining the correlation between ACT scores and socioeconomic factors.
 
 - **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
+- **Domain:** Education
 - **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
 
 ---
