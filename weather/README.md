@@ -8,9 +8,9 @@
 
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Objective:** To compare precipitation patterns in Seattle, WA and Charlotte, NC (2018–2022) and determine which city “rains more” in terms of both volume and frequency.
+- **Domain:** Climate
+- **Key Techniques:** Time Series, , Hypothesis Testing (t-test, z-test), Data Visualization
 
 ---
 
@@ -29,20 +29,20 @@ Provide a short and concise overview of the project. Mention the problem it solv
 ## Data
 
 - **Source:** [NOAA](https://www.ncei.noaa.gov/orders/cdo/4133290.csv)
-- **Description:** Brief overview of the dataset features, size, and format
+- **Description:** Daily precipitation datasets from 2018 to 2022.
 - **License:** (if applicable)
 
 ---
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+Data cleaning (date parsing, missing-value imputation) and exploratory analysis were performed in Jupyter notebook file included in the code folder. Graphs were generated in order: mean daily precipitation → monthly boxplots → t-test bar plots → z-test proportions bar plot → seasonal proportions → annual means and total line graph. Running the notebook top-to-bottom recreates all results.
 
 ---
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+Charlotte shows higher precipiation especially in summer, while Seattle shows higher precipitation especially in winter.
 
 ---
 
@@ -60,6 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Tools/libraries used
+- Tools/libraries used: pandas, numpy, matplotlib.pyplot, seaborn, scipy.
 - Tutorials or papers referenced
 - Inspiration or collaborators
