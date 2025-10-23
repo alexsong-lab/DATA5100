@@ -1,4 +1,4 @@
-# Education Project (This is a template README.md file that you can adapt to your project)
+# Education Project
 
 > Aanalysis examining relationships between ACT scores and socioeconomi, and school funding factors. The goal of  the analyss is to identify predictors of students academic performance, namely ACT score, and producing clear visualizations for reliable interpretation.
 
