@@ -5,10 +5,13 @@ pandas
 # Visualization
 matplotlib
 seaborn
+statsmodels
+sklearn
 
 # Jupyter & Development
 jupyter
 notebook
 ipython
+
 
 
